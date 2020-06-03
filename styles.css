@@ -1,7 +1,5 @@
-.container {
-    height: 100%;
-}
-
+/* adds white background block to offset the colorful image background and make things more legible, 
+this wrapper does not extend across the entire page, unless the screen being viewed is small  */
 #wrapper {
     max-width: 960px;
     padding-right: 10px;
@@ -9,6 +7,8 @@
     background-color: white; 
 }
 
+/* adds a background color, controls how it fits within the background, and updates the font color to be black to 
+compensate for the white wrapper  */
 body {
     background-image: url(https://media.idownloadblog.com/wp-content/uploads/2015/02/Simple-Minimal-Points-Wallpaper-iPhone-6-Plus.png); 
     background-color: #cccccc;
@@ -16,22 +16,27 @@ body {
     color: black; 
 }
 
+/* adds a top margin to all rows  */
 .row {
     margin-top: 10px;
 }
 
+/* adds margins on all four sides of paragraph text  */
 p {
-    padding: 10px; 
+    margin: 10px 10px 10px 10px; 
 }
 
+/* specifies the size of images in cards  */
 .card-img-top {
     img style = width:300px;
 }
 
+/* adds margins to form content  */
 .form-group {
     margin: 20px 20px 20px 20px;
 }
 
+/* forces the wrapper to be full width when the screen is below 600px */
 @media only screen and (max-width: 600px) {
     #wrapper {
       width: 100%;
