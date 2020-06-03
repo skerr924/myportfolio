@@ -2,9 +2,10 @@
 this wrapper does not extend across the entire page, unless the screen being viewed is small  */
 #wrapper {
     max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px;
+    width: auto;
+    padding: 20px 20px 20px 20px; 
     background-color: white; 
+    
 }
 
 /* adds a background color, controls how it fits within the background, and updates the font color to be black to 
