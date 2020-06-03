@@ -8,3 +8,7 @@ body {
 .row {
     margin-top: 10px;
 }
+
+.card-img-top {
+    img style = width:300px;
+}
