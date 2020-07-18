@@ -1,9 +1,9 @@
 /* adds white background block to offset the colorful image background and make things more legible, 
 this wrapper does not extend across the entire page, unless the screen being viewed is small  */
 #wrapper {
-    max-width: 960px;
+    max-width: 1000px;
     width: auto;
-    padding: 20px 20px 20px 20px; 
+    padding: 10px; 
     background-color: white; 
     
 }
@@ -17,15 +17,21 @@ body {
     color: black; 
 }
 
+/* adds margins on all four sides of paragraph text  */
+p, a {
+    margin: 5px 10px 10px 10px; 
+}
+
 /* adds a top margin to all rows  */
 .row {
     margin-top: 10px;
 }
 
-/* adds margins on all four sides of paragraph text  */
-p {
-    margin: 10px 10px 10px 10px; 
+.nav-wrapper { 
+    background-color: darkcyan;
 }
+
+
 
 /* specifies the size of images in cards  */
 .card-img-top {
