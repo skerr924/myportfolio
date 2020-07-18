@@ -1,37 +1,30 @@
-/* adds white background block to offset the colorful image background and make things more legible, 
-this wrapper does not extend across the entire page, unless the screen being viewed is small  */
-#wrapper {
-    max-width: 1000px;
-    width: auto;
-    padding: 10px; 
-    background-color: white; 
-    
-}
-
-/* adds a background color, controls how it fits within the background, and updates the font color to be black to 
-compensate for the white wrapper  */
+/* adds text color to body text */
 body {
-    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2015/02/Simple-Minimal-Points-Wallpaper-iPhone-6-Plus.png); 
-    background-color: #cccccc;
-    background-size: cover;
-    color: black; 
+    color: grey; 
 }
 
-/* adds margins on all four sides of paragraph text  */
-p, a {
-    margin: 5px 10px 10px 10px; 
+h1, h2, h3, h4, h5 { 
+    color: darkslategrey; 
+    font-family: 'Vollkorn', serif;
+    padding: 5px;
 }
+
+/* adds margins on all four sides of paragraph text, updates font */
+p, a {
+    padding: 10px; 
+    margin: 5px, 10px, 10px, 10px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 
 /* adds a top margin to all rows  */
 .row {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .nav-wrapper { 
-    background-color: darkcyan;
+    background-color: darkslategrey;
 }
-
-
 
 /* specifies the size of images in cards  */
 .card-img-top {
@@ -43,9 +36,14 @@ p, a {
     margin: 20px 20px 20px 20px;
 }
 
+.headshot { 
+    max-width: 100%;
+}
+
 /* forces the wrapper to be full width when the screen is below 600px */
 @media only screen and (max-width: 600px) {
-    #wrapper {
-      width: 100%;
+
+    .headshot{ 
+        width: 100% 
     }
   }
