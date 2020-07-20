@@ -6,7 +6,6 @@ body {
 h1, h2, h3, h4, h5 { 
     color: darkslategrey; 
     font-family: 'Julius Sans One', sans-serif;
-    padding: 5px;
 }
 
 /* adds margins on all four sides of paragraph text, updates font */
@@ -40,7 +39,6 @@ p, a {
     max-width: 100%;
 }
 
-/* forces the wrapper to be full width when the screen is below 600px */
 @media only screen and (max-width: 600px) {
 
     .headshot{ 
