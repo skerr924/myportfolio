@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 { 
-    color: darkslategrey; 
+    color:#2e645a; 
     font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -23,12 +23,16 @@ a {
     margin-top: 30px;
 }
 
+.card-title { 
+    color: #2e645a; ; 
+}
+
 .brand-logo { 
     margin-left: 10px; 
 }
 
 .nav-wrapper { 
-    background-color: darkslategrey;
+    background-color: #2e645a;
 }
 
 /* specifies the size of images in cards  */
