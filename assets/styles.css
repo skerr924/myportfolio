@@ -23,6 +23,10 @@ a {
     margin-top: 30px;
 }
 
+.brand-logo { 
+    margin-left: 10px; 
+}
+
 .nav-wrapper { 
     background-color: darkslategrey;
 }
