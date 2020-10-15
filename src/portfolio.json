@@ -5,7 +5,7 @@
     "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to store, manage, and display important information about employees such as interests, food preferences, and birthdays. Management can use this application to inform decisions about engagement initiatives, event-planning, etc.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://skerr924.github.io/employee-directory/",
-    "image": "/src/assets/employeeDirectory.png",
+    "image": "employeeDirectory.png",
     "imageAlt": "application example"
   },
   {
@@ -14,7 +14,7 @@
     "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to store, manage, and display important information about employees such as interests, food preferences, and birthdays. Management can use this application to inform decisions about engagement initiatives, event-planning, etc.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://stark-waters-09218.herokuapp.com",
-    "image": "../../assets/jinji.png",
+    "image": "jinji.png",
     "imageAlt": "application example"
   },
   {
@@ -23,7 +23,7 @@
     "description": "This application works with mySQL, Node, Express, Handlebars, and ORM to serve users burgers from the database which they can delete, devour, and cook from scratch.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://evening-tundra-74754.herokuapp.com/",
-    "image": "../../assets/EatABurger.png",
+    "image": "EatABurger.png",
     "imageAlt": "application example"
   },
   {
@@ -32,7 +32,7 @@
     "description": "This CLI application allow users to manage and update a mySQL database from the command line, using prompts like 'update employee', 'add employee', etc.",
     "ghlink": "https://github.com/skerr924/contentManagementSystem",
     "deployed": "",
-    "image": "../../assets/employeeManagement.png",
+    "image": "employeeManagement.png",
     "imageAlt": "application example"
   },
   {

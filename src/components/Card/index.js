@@ -2,12 +2,15 @@
 import React from "react";
 import portfolio from "../../portfolio.json";
 import "../../index.css";
+const relativePrefix = process.env.PUBLIC_URL + "/assets/";
+console.log(relativePrefix);
+console.log(process.env);
 
 function Card() {
   return portfolio.map((item) => (
     <div className="s12 col m4">
       <div className="card-image">
-        <img src={item.image} alt={item.imageAlt} />
+        <img src={relativePrefix + item.image} alt={item.imageAlt} />
       </div>
       <div className="card-content">
         <p>

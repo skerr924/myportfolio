@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+const relativePrefix = process.env.PUBLIC_URL + "/assets/";
 
 function Navbar() {
   return (
@@ -13,7 +14,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="../../assets/SarahKerr.pdf" target="_blank">
+            <a href={relativePrefix + "SarahKerr.pdf"} target="_blank">
               Resume
             </a>
           </li>
