@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const relativePrefix = process.env.PUBLIC_URL + "/assets/";
+const relPrefixPDF = process.env.PUBLIC_URL + "/assets/pdfs/";
 
-function Navbar() {
+function Navbar(pdfLink) {
   return (
     <nav>
       <div className="nav-wrapper">
@@ -14,7 +14,7 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href={relativePrefix + "SarahKerr.pdf"} target="_blank">
+            <a href={relPrefixPDF + "SarahKerr.pdf"} rel="noopener noreferrer">
               Resume
             </a>
           </li>

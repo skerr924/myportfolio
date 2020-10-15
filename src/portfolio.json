@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Employee Directory",
-    "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to store, manage, and display important information about employees such as interests, food preferences, and birthdays. Management can use this application to inform decisions about engagement initiatives, event-planning, etc.",
+    "description": "A MERN application which displays user data including name, email, and gender, displays their photo, and allows users to search and/or sort on various categories.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://skerr924.github.io/employee-directory/",
     "image": "employeeDirectory.png",
@@ -41,7 +41,7 @@
     "description": "noted! works with the Express server to provide a simple, note-taking interface for users. The application is deployed on Heroku.",
     "ghlink": "https://github.com/skerr924/noteTaker",
     "deployed": "https://notedapp810.herokuapp.com/",
-    "image": "../../assets/noted.png",
+    "image": "noted.png",
     "imageAlt": "application example"
   },
   {
@@ -50,7 +50,7 @@
     "description": "This CLI application prompts the user for information about their employees, then dynamically creates a 'team' page, with information depending on their title as engineer, manager, or intern.",
     "ghlink": "https://github.com/skerr924/employeeSummary",
     "deployed": "",
-    "image": "../../assets/employeeGenerator.png",
+    "image": "employeeGenerator.png",
     "imageAlt": "application example"
   },
   {
@@ -59,7 +59,7 @@
     "description": "This CLI application requests information about the user's project, then uses their prompt responses to generate a well-structured README file for their project.",
     "ghlink": "https://github.com/skerr924/READMEGenerator",
     "deployed": "",
-    "image": "../../assets/READMEGenerator.png",
+    "image": "READMEGenerator.png",
     "imageAlt": "application example"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Organize your workday using one, simple interface that allows users to easily add and remove meetings, events, and tasks hour by hour as they go about their day.",
     "ghlink": "https://github.com/skerr924/WorkDayScheduler",
     "deployed": "https://skerr924.github.io/WorkDayScheduler/",
-    "image": "../../assets/WorkDayScheduler.png",
+    "image": "WorkDayScheduler.png",
     "imageAlt": "application example"
   },
   {
@@ -77,7 +77,7 @@
     "description": "This simple weather dashboard allows users to search cities by zip code, then displays the current weather in that area, as well as the projected weather over the next five days.",
     "ghlink": "https://github.com/skerr924/WeatherDashboard",
     "deployed": "https://skerr924.github.io/WeatherDashboard/",
-    "image": "../../assets/WeatherDashboard.png",
+    "image": "WeatherDashboard.png",
     "imageAlt": "application example"
   },
   {
@@ -86,7 +86,7 @@
     "description": "Integrating Zomato and RefugeeRestroom APIs, this application lets you search for restaurants in the area, then provides clear information about the ADA and gender-neutral accessibility of their bathrooms.",
     "ghlink": "https://github.com/mandylloyd/project-1",
     "deployed": "https://mandylloyd.github.io/project-1/",
-    "image": "../../assets/YipPEE.png",
+    "image": "YipPEE.png",
     "imageAlt": "application example"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Simple, but useful! This app let's you define the requirements for your new password and spits one out that's sure to be both unique and secure. (But have fun trying to remember it...)",
     "ghlink": "https://github.com/skerr924/passwordgenerator",
     "deployed": "https://skerr924.github.io/passwordgenerator/",
-    "image": "../../assets/PasswordGenerator.png",
+    "image": "PasswordGenerator.png",
     "imageAlt": "application example"
   }
 ]

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: ;
 }
 
 code {
@@ -56,7 +57,7 @@ a {
 }
 
 /* specifies the size of images in cards  */
-.card-img-top {
+.card-imgage {
   width: 300px;
 }
 
