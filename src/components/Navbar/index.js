@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const relPrefixPDF = process.env.PUBLIC_URL + "/assets/pdfs/";
 
-function Navbar(pdfLink) {
+function Navbar() {
   return (
     <nav>
       <div className="nav-wrapper">
@@ -14,7 +14,7 @@ function Navbar(pdfLink) {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href={relPrefixPDF + "SarahKerr.pdf"} rel="noopener noreferrer">
+            <a href={relPrefixPDF + "SarahKerr.pdf"} target="_blank">
               Resume
             </a>
           </li>
