@@ -14,7 +14,6 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          {/* <Navbar /> */}
           <MobileNavBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
           <Wrapper>
             <Switch>

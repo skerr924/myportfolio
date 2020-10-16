@@ -1,26 +1,30 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+import { Link } from "react-router-dom";
+
 const relPrefixPDF = process.env.PUBLIC_URL + "/assets/pdfs/";
 
 export default (props) => {
+  const closeMenu = () => document.querySelector(".closeMenu").click();
   return (
     // Pass on our props
-    <Menu {...props}>
-      <a className="menu-item" href="/">
+    <Menu {...props} overlayClassName={"closeMenu"}>
+      <Link className="menu-item" to="/" onClick={closeMenu}>
         Home
-      </a>
+      </Link>
 
-      <a
+      <Link
         className="menu-item"
-        href={relPrefixPDF + "SarahKerr.pdf"}
+        to={relPrefixPDF + "SarahKerr.pdf"}
         target="_blank"
+        onClick={closeMenu}
       >
         Resume
-      </a>
+      </Link>
 
-      <a className="menu-item" href="/portfolio">
+      <Link className="menu-item" to="/portfolio" onClick={closeMenu}>
         Portfolio
-      </a>
+      </Link>
     </Menu>
   );
 };
