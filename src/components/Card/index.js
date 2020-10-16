@@ -5,7 +5,7 @@ const relPrefixImg = process.env.PUBLIC_URL + "/assets/images/";
 
 function Card() {
   return portfolio.map((item) => (
-    <div className="col s4" key={item.id}>
+    <div className="col l4 m12 s12" key={item.id}>
       <div className="card">
         <div className="card-image">
           <img src={relPrefixImg + item.image} alt={item.imageAlt} />

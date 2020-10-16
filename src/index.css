@@ -57,9 +57,9 @@ a {
 }
 
 /* specifies the size of images in cards  */
-.card-imgage {
+/* .card-image {
   width: 300px;
-}
+} */
 
 /* adds margins to form content  */
 .form-group {
@@ -68,12 +68,6 @@ a {
 
 .headshot {
   max-width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .headshot {
-    width: 100%;
-  }
 }
 
 #page-wrap {
@@ -137,10 +131,10 @@ a {
   box-shadow: none;
 }
 
-/* Morph shape necessary with bubble or elastic
+/* Morph shape necessary with bubble or elastic  */
 .bm-morph-shape {
   fill: #373a47;
-} */
+}
 
 /* Wrapper for item list */
 .bm-item-list {
@@ -150,4 +144,10 @@ a {
 
 nav {
   background-color: #2e645a;
+}
+
+@media only screen and (max-width: 600px) {
+  .headshot {
+    width: 100%;
+  }
 }
