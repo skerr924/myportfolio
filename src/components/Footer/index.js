@@ -4,7 +4,9 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Sarah Kerr © 2020</span>
+      <span>
+        <center>Sarah Kerr © 2020</center>
+      </span>
     </footer>
   );
 }

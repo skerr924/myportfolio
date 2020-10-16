@@ -12,7 +12,7 @@ function Home() {
       </div>
 
       <div className="col 9 m6 s12">
-        <h5>Welcome!</h5>
+        <h3>Welcome!</h3>
         If you're looking to learn more about me - my experience, past projects,
         and future goals - you've come to the right place.
         <br />
@@ -25,11 +25,20 @@ function Home() {
         {/* <!--icons for social media links --> */}
         <br />
         <h5>Let's connect</h5>
-        <a href="https://www.linkedin.com/in/sarah-kerr-79656ba2/">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/sarah-kerr-79656ba2/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
         <br />
-        <a href="https://github.com/skerr924">GitHub</a>
+        <a href="https://github.com/skerr924" target="_blank">
+          GitHub
+        </a>
         <br />
-        <a href="sarah.kerr93@gmail.com">Email me</a>
+        <a href="sarah.kerr93@gmail.com" target="_blank">
+          Email me
+        </a>
       </div>
     </div>
   );
