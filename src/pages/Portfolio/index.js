@@ -3,7 +3,7 @@ import Card from "../../components/Card";
 
 function Portfolio() {
   return (
-    <div>
+    <div className="row">
       <Card />
     </div>
   );

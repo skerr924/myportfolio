@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MobileNavBar from "../MobileNavBar";
 const relPrefixPDF = process.env.PUBLIC_URL + "/assets/pdfs/";
 
 function Navbar() {
@@ -24,6 +25,9 @@ function Navbar() {
           {/* <a href="#" data-target="slide-out" class="sidenav-trigger">
             <i class="material-icons menu">menu</i>
           </a> */}
+          <li>
+            <MobileNavBar />
+          </li>
         </ul>
       </div>
     </nav>

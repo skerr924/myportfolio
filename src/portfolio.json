@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Jinji",
-    "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to store, manage, and display important information about employees such as interests, food preferences, and birthdays. Management can use this application to inform decisions about engagement initiatives, event-planning, etc.",
+    "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to manage employee info such as interests, food preferences, and birthdays to inform Management decision-making and planning.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://stark-waters-09218.herokuapp.com",
     "image": "jinji.png",

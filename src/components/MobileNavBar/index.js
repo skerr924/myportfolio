@@ -1,21 +1,43 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { slide as Menu } from "react-burger-menu";
+const relPrefixPDF = process.env.PUBLIC_URL + "/assets/pdfs/";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function MobileNavBar() {
+export default (props) => {
   return (
-    <ul id="slide-out" className="sidenav">
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/resume">Resume</Link>
-      </li>
-      <li>
-        <Link to="/portfolio">Portfolio</Link>
-      </li>
-    </ul>
-  );
-}
+    // Pass on our props
+    <Menu {...props}>
+      <a className="menu-item" href="/">
+        Home
+      </a>
 
-export default MobileNavBar;
+      <a
+        className="menu-item"
+        href={relPrefixPDF + "SarahKerr.pdf"}
+        target="_blank"
+      >
+        Resume
+      </a>
+
+      <a className="menu-item" href="/portfolio">
+        Portfolio
+      </a>
+    </Menu>
+  );
+};
+
+// // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+// function MobileNavBar() {
+//   return (
+//     <ul id="slide-out" className="sidenav">
+//       <li>
+//         <Link to="/">Home</Link>
+//       </li>
+//       <li>
+//         <Link to="/resume">Resume</Link>
+//       </li>
+//       <li>
+//         <Link to="/portfolio">Portfolio</Link>
+//       </li>
+//     </ul>
+//   );
+// }
