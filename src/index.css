@@ -5,18 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-bottom: ;
+  color: grey;
+  font-size: 10pt;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-/* adds text color to body text */
-body {
-  color: grey;
-  font-size: 10pt;
 }
 
 h1,
@@ -128,7 +123,6 @@ a {
 .bm-menu {
   background: #2e645a;
   font-size: 1.15em;
-  box-shadow: none;
 }
 
 /* Morph shape necessary with bubble or elastic  */
