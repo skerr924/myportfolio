@@ -25,6 +25,10 @@ function Home() {
         {/* <!--icons for social media links --> */}
         <br />
         <h5>Let's connect</h5>
+        <p>
+          Email me at{" "}
+          <a href="mailto:sarah.kerr93@gmail.com">sarah.kerr93@gmail.com</a>
+        </p>
         <a
           href="https://www.linkedin.com/in/sarah-kerr-79656ba2/"
           target="_blank"
@@ -34,10 +38,6 @@ function Home() {
         <br />
         <a href="https://github.com/skerr924" target="_blank">
           GitHub
-        </a>
-        <br />
-        <a href="sarah.kerr93@gmail.com" target="_blank">
-          Email me
         </a>
       </div>
     </div>
