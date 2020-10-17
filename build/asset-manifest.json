@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d838493.chunk.css",
+    "main.js": "/static/js/main.f986ad54.chunk.js",
+    "main.js.map": "/static/js/main.f986ad54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3d086d1e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3d086d1e.js.map",
+    "static/js/2.11eac1fb.chunk.js": "/static/js/2.11eac1fb.chunk.js",
+    "static/js/2.11eac1fb.chunk.js.map": "/static/js/2.11eac1fb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3b913cb8d04e2ba140d3ca2292d7e050.js": "/precache-manifest.3b913cb8d04e2ba140d3ca2292d7e050.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4d838493.chunk.css.map": "/static/css/main.4d838493.chunk.css.map",
+    "static/js/2.11eac1fb.chunk.js.LICENSE.txt": "/static/js/2.11eac1fb.chunk.js.LICENSE.txt",
+    "static/media/SarahKerr.jpg": "/static/media/SarahKerr.744d7623.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d086d1e.js",
+    "static/js/2.11eac1fb.chunk.js",
+    "static/css/main.4d838493.chunk.css",
+    "static/js/main.f986ad54.chunk.js"
+  ]
+}
