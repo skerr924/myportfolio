@@ -36,7 +36,8 @@ function Home() {
           GitHub
         </a>
         <br />
-        Email me at <a href="sarah.kerr93@gmail.com">sarah.kerr93@gmail.com</a>
+        Email me at{" "}
+        <a href="mailto:sarah.kerr93@gmail.com">sarah.kerr93@gmail.com</a>
       </div>
     </div>
   );
