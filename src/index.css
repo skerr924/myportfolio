@@ -58,6 +58,7 @@ a {
 
 .headshot {
   max-width: 100%;
+  text-align: center;
 }
 
 #page-wrap {
@@ -142,11 +143,7 @@ nav {
   background-color: #2e645a;
 }
 
-@media only screen and (max-width: 600px) {
-  .headshot {
-    width: 100%;
-  }
-
+@media only screen and (max-width: 900px) {
   .wrapper {
     padding-left: 10px;
     padding-right: 10px;
@@ -162,6 +159,7 @@ nav {
   }
 
   .headshot {
-    max-width: 20%;
+    max-width: 60%;
+    text-align: center;
   }
 }
