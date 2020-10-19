@@ -51,11 +51,6 @@ a {
   background-color: #2e645a;
 }
 
-/* specifies the size of images in cards  */
-/* .card-image {
-  width: 300px;
-} */
-
 /* adds margins to form content  */
 .form-group {
   margin: 20px 20px 20px 20px;
@@ -90,6 +85,13 @@ a {
 /* Change color on hover */
 .bm-item:hover {
   color: orange;
+}
+
+.wrapper {
+  min-height: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -143,5 +145,23 @@ nav {
 @media only screen and (max-width: 600px) {
   .headshot {
     width: 100%;
+  }
+
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bm-burger-button {
+    position: fixed;
+    width: 24px;
+    height: 20px;
+    left: 24px;
+    top: 24px;
+  }
+
+  .headshot {
+    max-width: 20%;
   }
 }
