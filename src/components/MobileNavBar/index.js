@@ -15,7 +15,7 @@ export default (props) => {
 
       <Link
         className="menu-item"
-        to={relPrefixPDF + "SarahKerr-10.22.pdf"}
+        to={relPrefixPDF + "SarahKerr-10.30.pdf"}
         target="_blank"
         onClick={closeMenu}
       >
