@@ -1,51 +1,60 @@
 [
   {
     "id": 1,
+    "name": "Lilypad",
+    "description": "Lilypad allows parents to easily share information with temporary caregivers, such as nannies, babysitters, or family members who might be watching over their children.",
+    "ghlink": "https://github.com/MikChanna/Lilypad",
+    "deployed": "https://enigmatic-tor-25137.herokuapp.com/",
+    "image": "Lilypad.png",
+    "imageAlt": "application example"
+  },
+  {
+    "id": 2,
     "name": "Employee Directory",
-    "description": "A MERN application which displays user data including name, email, and gender, displays their photo, and allows users to search and/or sort on various categories.",
+    "description": "A MERN application which displays user data such as name, email, and gender, and their photo, and allows users to search and/or sort on various categories.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://skerr924.github.io/employee-directory/",
     "image": "employeeDirectory.png",
     "imageAlt": "application example"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Jinji",
-    "description": "A Human Resources application which employs mySQL, Sequelize, Express, and Node to manage employee info and inform Management decision-making and planning.",
+    "description": "Jinji is a full-stack Human Resources application which employs mySQL, Sequelize, Express, and Node to manage employee info like allergies, birthdays, work start dates, etc and inform Management decision-making and planning.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://stark-waters-09218.herokuapp.com",
     "image": "jinji.png",
     "imageAlt": "application example"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Eat A Burger!",
-    "description": "This application works with mySQL, Node, Express, Handlebars, and ORM to serve users burgers from the database which they can delete, devour, and cook from scratch.",
+    "description": "This app works with mySQL, Node, Express, Handlebars, and ORM to serve users burgers which they can delete, devour, and cook from scratch.",
     "ghlink": "https://github.com/skerr924/project2",
     "deployed": "https://evening-tundra-74754.herokuapp.com/",
     "image": "EatABurger.png",
     "imageAlt": "application example"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Employee Management System",
-    "description": "This CLI application allow users to manage and update a mySQL database from the command line, using prompts like 'update employee', 'add employee', etc.",
+    "description": "This Employee Management Command Line Interface allow users to manage and update a mySQL database from the command line, using prompts like 'update employee', 'add employee', etc.",
     "ghlink": "https://github.com/skerr924/contentManagementSystem",
     "deployed": "",
     "image": "employeeManagement.png",
     "imageAlt": "application example"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "noted!",
-    "description": "noted! works with the Express server to provide a simple, note-taking interface for users. The application is deployed on Heroku.",
+    "description": "Write things down with noted! This application works with the Express server to provide a simple, note-taking interface for users. Add notes, update exiting notes, and delete notes!",
     "ghlink": "https://github.com/skerr924/noteTaker",
     "deployed": "https://notedapp810.herokuapp.com/",
     "image": "noted.png",
     "imageAlt": "application example"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Employee Summary",
     "description": "This CLI application prompts the user for information about their employees, then dynamically creates a 'team' page, with information depending on their title as engineer, manager, or intern.",
     "ghlink": "https://github.com/skerr924/employeeSummary",
@@ -54,7 +63,7 @@
     "imageAlt": "application example"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "README Generator",
     "description": "This CLI application requests information about the user's project, then uses their prompt responses to generate a well-structured README file for their project.",
     "ghlink": "https://github.com/skerr924/READMEGenerator",
@@ -63,16 +72,16 @@
     "imageAlt": "application example"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Work Day Scheduler",
-    "description": "Organize your workday using one, simple interface that allows users to easily add and remove meetings, events, and tasks hour by hour as they go about their day.",
+    "description": "Organize your workday using one, simple interface that allows users to easily add and remove meetings, events, and tasks hour by hour as they go about their day. Elements display differently depending on current moment.",
     "ghlink": "https://github.com/skerr924/WorkDayScheduler",
     "deployed": "https://skerr924.github.io/WorkDayScheduler/",
     "image": "WorkDayScheduler.png",
     "imageAlt": "application example"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Weather Dashboard",
     "description": "This simple weather dashboard allows users to search cities by zip code, then displays the current weather in that area, as well as the projected weather over the next five days.",
     "ghlink": "https://github.com/skerr924/WeatherDashboard",
@@ -81,7 +90,7 @@
     "imageAlt": "application example"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "YipPEE",
     "description": "Integrating Zomato and RefugeeRestroom APIs, this application lets you search for restaurants in the area, then provides clear information about the ADA and gender-neutral accessibility of their bathrooms.",
     "ghlink": "https://github.com/mandylloyd/project-1",
@@ -90,7 +99,7 @@
     "imageAlt": "application example"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Password Generator",
     "description": "Simple, but useful! This app let's you define the requirements for your new password and spits one out that's sure to be both unique and secure. (But have fun trying to remember it...)",
     "ghlink": "https://github.com/skerr924/passwordgenerator",
